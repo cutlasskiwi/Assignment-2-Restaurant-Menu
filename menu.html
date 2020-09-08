@@ -9,141 +9,401 @@
 	</head>
 
 	<body>
-		<header>
-			<h1>Pizzeria ZINKAA</h1>
-			<p class="p_header">040 96 57 35</p>
-			<nav>
-				<ul>
-					<li class="navbar"><a href="index.html">Hem</a></li>
-					<li class="navbar"><a href="#contact">Kontakt & Öppettider</a></li>
-				</ul>
-			</nav>
+		<header class="header_menu">
+			<div class="header_logo">
+				<div class="header_text">
+					<h1>Pizzeria ZINKAA</h1>
+					<p>040 96 57 35</p>
+				</div>
+				<img src="img/Giuseppe.png">
+			</div>
+			<div class="header_navigation">
+				<nav>
+					<ul>
+						<li class="navbar"><a href="index.html">Hem</a></li>
+						<li class="navbar"><a href="#contact">Kontakt & Öppettider</a></li>
+					</ul>
+				</nav>
+				<div class="dropdown">
+			  		<button class="dropbtn">Rätter</button>
+				  	<div class="dropdown-content">
+				  		<a href="#pizza_ham">Pizzor med skinka</a>
+				  		<a href="#pizza_ox">Pizzor med oxfilé</a>
+				  		<a href="#pizza_kf">Pizzor med köttfärssås</a>
+				  		<a href="#pizza_hav">Pizzor med havsingredienser</a>
+				  		<a href="#pizza_korv">Pizzor med stark korv</a>
+				  		<a href="#pizza_sal">Pizzor med salami</a>
+				  		<a href="#pizza_kyck">Pizzor med kyckling</a>
+				  		<a href="#pizza_veg">Vegetariska pizzor</a>
+				  		<a href="#pizza_bacon">Pizzor med bacon</a>
+				  		<a href="#pizza_spec">Speciella pizzor</a>
+				  		<a href="#pizza_mex">Mexikanska Pizzor</a>
+				  		<a href="#kebab">Kebab Meny</a>
+				  		<a href="#gyros">Gyros Meny</a>
+				  		<a href="#other_food">Grill</a>
+				  		<a href="#sallad">Sallader</a>
+				  		<a href="#vegan">Vegansk Meny</a>
+				  		<a href="#vegan_ham">Pizzor med vegansk skinka</a>
+				  		<a href="#pan">Panpizza</a>
+				  		<a href="#other">Övrigt</a>
+				 	</div>
+
+				</div>
+			</div>
+
 		</header>
 
 	<div class="menu_wrapper">
 		<article class="menu">
-			<h3>Pizza</h3>
+			<a name="pizza_ham"></a>
+			<h3>Pizzor med skinka <span class="familj">Normal Familje</span></h3>
 			<ul class="menu_items">
-				<li class="dish">Vesuvio <span class="cost">70kr</span></li>
+				<li class="dish">Vesuvio <span class="cost">70:- &nbsp 170:-</span></li>
 				<li class="ingredients">Skinka </li>
-				<li class="dish">Calzone (inbakad) <span class="cost">70kr</span></li>
+				<li class="dish">Calzone (inbakad) <span class="cost">70:-</span></li>
 				<li class="ingredients">Skinka</li>
-				<li class="dish">Capricciosa <span class="cost">70kr</span></li>
-				<li class="ingredients">Skinka, champinjoner</li>
-				<li class="dish">Hawaii <span class="cost">70kr</span></li>
-				<li class="ingredients">Skinka, ananas</li>
-				<li class="dish">Lazio <span class="cost">75kr</span></li>
+				<li class="dish">Lazio <span class="cost">75:- &nbsp 170:-</span></li>
 				<li class="ingredients">Skinka, stark korv (chorizo)</li>
-				<li class="dish">Barbone <span class="cost">75kr</span></li>
-				<li class="ingredients">Skinka, köttfärs, lök, champinjoner, stark sås, vitlökssås</li>
-				<li class="dish">Quattro Stagioni <span class="cost">75kr</span></li>
-				<li class="ingredients">Skinka, räkor, musslor, champinjoner</li>
-				<li class="dish">Malmö Special <span class="cost">75kr</span></li>
-				<li class="ingredients">Skinka, kebab, lök, färsk tomat, stark sås</li>
-				<li class="dish">Venezia <span class="cost">75kr</span></li>
+				<li class="dish">Capricciosa <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Skinka, champinjoner</li>
+				<li class="dish">Hawaii <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Skinka, ananas</li>
+				<li class="dish">Flamenco <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Skinka, paprika</li>
+				<li class="dish">Tropicana 1 <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Skinka, banan</li>
+				<li class="dish">Calzone Special (inbakad) <span class="cost">75:-</span></li>
 				<li class="ingredients">Skinka, räkor, champinjoner</li>
-				<li class="dish">Skåne Special <span class="cost">75kr</span></li>
+				<li class="dish">Barbone <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Skinka, köttfärs, lök, champinjoner, stark sås, vitlökssås</li>
+				<li class="dish">Afrikana <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Skinka, banan, ananas, jordnötter, curry</li>
+				<li class="dish">Quattro Stagioni <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Skinka, räkor, musslor, champinjoner</li>
+				<li class="dish">Malmö Special <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Skinka, kebab, lök, färsk tomat, stark sås</li>
+				<li class="dish">Bussola <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Skinka, räkor</li>
+				<li class="dish">Venezia <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Skinka, räkor, champinjoner</li>
+				<li class="dish">Skåne Special <span class="cost">75:- &nbsp 180:-</span></li>
 				<li class="ingredients">Skinka, kebab, champinjoner, lök, paprika, tomat, fefferoni</li>
-
+				<li class="dish">Trix & Mix <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Tre valfria pålägg</li>
 			</ul>
 		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_ox"></a>
+			<h3>Pizzor med oxfilé <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Adriatic <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Oxfilé, skinka, champinjoner, bearnaisesås </li>
+				<li class="dish">Gorgonzola <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Oxfilé, skinka, gorgonzola, lök, färsk tomat, paprika</li>
+				<li class="dish">Husets Pizza <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Oxfilé, bacon, champinjoner, bearnaisesås</li>
+				<li class="dish">Workout <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Oxfilé, paprika, champinjoner, cayennepeppar</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_kf"></a>
+			<h3>Pizzor med köttfärssås <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Bolognese <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Köttfärs, lök</li>
+				<li class="dish">Casalinga <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Köttfärs, bacon, salami, lök</li>
+				<li class="dish">Bambino (inbakad) <span class="cost">75:-</span></li>
+				<li class="ingredients">Köttfärs, ananas</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_hav"></a>
+			<h3>Pizzor med havsingredienser <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Baltik <span class="cost">80:- &nbsp 180:-</span></li>
+				<li class="ingredients">Tonfisk, musslor, räkor, krabba</li>
+				<li class="dish">Slank som Cindy <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Tonfisk, räkor, lök, paprika</li>
+				<li class="dish">Al Tonno <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Tonfisk, lök, paprika</li>
+				<li class="dish">Marinara <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Räkor, musslor</li>
+				<li class="dish">Pescatore <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Tonfisk, lök</li>
+				<li class="dish">Gudfadern <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Tonfisk, musslor, paprika</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_korv"></a>
+			<h3>Pizzor med stark korv <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Viking <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Stark korv (chorizo), bacon, lök</li>
+				<li class="dish">Viking Special <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Stark korv (chorizo), bacon, ägg, lök</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_sal"></a>
+			<h3>Pizzor med salami <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Cacciatore <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Salami, oliver</li>
+				<li class="dish">Salami <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Salami, paprika, lök</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_kyck"></a>
+			<h3>Pizzor med kyckling <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Banarne <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Kyckling, banan, ananas, curry</li>
+				<li class="dish">Maraton <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Kyckling, ägg, tomat, lök</li>
+				<li class="dish">Paradiso <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Kyckling, köttfärs, banan, ananas, jordnötter, curry</li>
+				<li class="dish">Kycklingpizza Special <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Kyckling, champinjoner, lök, tomat, curry</li>
+				<li class="dish">Kycklingfilépizza <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Grillad kycklingfilé, champinjoner, gorgonzola</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_veg"></a>
+			<h3>Vegetariska Pizzor <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Vegetariana <span class="cost">70:- &nbsp 160:-</span></li>
+				<li class="ingredients">Champinjoner, lök, paprika, oliver, kronärtskocka</li>
+				<li class="dish">Vegetariana Special <span class="cost">75:- &nbsp 160:-</span></li>
+				<li class="ingredients">Champinjoner, lök, paprika, oliver, kronärtskocka, sallad, sås</li>
+				<li class="dish">Funghi <span class="cost">65:- &nbsp 160:-</span></li>
+				<li class="ingredients">Champinjoner</li>
+				<li class="dish">Margherita <span class="cost">60:- &nbsp 150:-</span></li>
+				<li class="ingredients">Tomatsås, ost</li>
+				<li class="dish">Tropicana <span class="cost">70:- &nbsp 160:-</span></li>
+				<li class="ingredients">Banan, ananas, curry</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_bacon"></a>
+			<h3>Pizza med bacon <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">La Maffia <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Bacon, lök, paprika</li>
+				<li class="dish">Picante <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Bacon, fefferoni</li>
+				<li class="dish">Paisana <span class="cost">70:- &nbsp 170:-</span></li>
+				<li class="ingredients">Bacon, lök, färsk tomat</li>
+				<li class="dish">Hornet Special <span class="cost">75:- &nbsp 180:-</span></li>
+				<li class="ingredients">Bacon, kebab, skinka, lök, fefferoni, vitlökssås</li>
+				<li class="dish">Bomba <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Bacon, skinka, lök, ägg, svartpeppar</li>
+				<li class="dish">Napoli <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Kalvinnanlår, champinjoner, sås</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_spec"></a>
+			<h3>Speciella Pizzor <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Bosna Special <span class="cost">85:- &nbsp 180:-</span></li>
+				<li class="ingredients">Kebab, köttfärs, kyckling, kalkonsalami, champinjoner, sås</li>
+				<li class="dish">Cevap Pizza <span class="cost">85:- &nbsp 180:-</span></li>
+				<li class="ingredients">Cevapkött, champinjoner, sås</li>
+				<li class="dish">Salami <span class="cost">90:- &nbsp 200:-</span></li>
+				<li class="ingredients">Salami, paprika, lök</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="pizza_mex"></a>
+			<h3>Mexikanska Pizzor <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Acapulco <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Oxfilé, champinjoner, jalapeno, tacosås, vitlökssås</li>
+				<li class="dish">Azteka <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Skinka, jalapeno, tacosås, tacokryddmix</li>
+				<li class="dish">Mexicana <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Köttfärs, jalapeno, tacosås, lök, vitlökssås</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="kebab"></a>
+			<h3>Kebab Meny <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Kebabpizza <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Kebabkött, lök, fefferoni, sås</li>
+				<li class="dish">Kebabpizza Special <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Kebabkött, champinjoner, tomat, fefferoni, sås</li>
+				<li class="dish">Kebab Calzone <span class="cost">75:-</span></li>
+				<li class="ingredients">Kebabkött, champinjoner, lök</li>
+				<li class="dish">Kebabtallrik med pommes <span class="cost">75:-</span></li>
+				<li class="ingredients">Kebabkött, sallad, lök, fefferoni, gruka, tomat, dressing</li>
+				<li class="dish">Kebabrulle <span class="cost">60:-</span></li>
+				<li class="ingredients">Kebabkött, sallad, lök, fefferoni, gurka, tomat, dressing</li>
+				<li class="dish">Kebabsallad <span class="cost">70:-</span></li>
+				<li class="ingredients">Kebabkött, tomat, sallad, lök, gurka, dressing</li>
+				<li class="dish">Kycklingkebabrulle <span class="cost">65:-</span></li>
+				<li class="ingredients">Kycklingkebabkött, lök, gurka, tomat, fefferoni, sallad, sås</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="gyros"></a>
+			<h3>Gyros Meny <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="dish">Gyrospizza <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Gyroskött, lök, fefferoni, sås</li>
+				<li class="dish">Gyrospizza Special <span class="cost">75:- &nbsp 170:-</span></li>
+				<li class="ingredients">Gyroskött, champinjoner, isbergssallad, fefferoni, sås</li>
+				<li class="dish">Gyrostallrik med pommes <span class="cost">75:-</span></li>
+				<li class="ingredients">Gyroskött, sallad, lök, fefferoni, gurka, tomat, sås</li>
+				<li class="dish">Gyrosrulle <span class="cost">65:-</span></li>
+				<li class="ingredients">Gyroskött, sallad, lök, fefferoni, gurka, tomat, sås</li>
+			</ul>
+		</article>
+
 		<article class="menu menu_other">
 			<a name="other_food"></a>
 			<h3>Grill</h3>
 			<ul class="menu_items">
-				<li class="dish">Cevap med lepina <span class="cost">55kr</span></li>
+				<li class="dish">Cevap med lepina <span class="cost">55:-</span></li>
 				<li class="ingredients">&nbsp</li>
-				<li class="dish">Cevap med bröd, sallad <span class="cost">60kr</span></li>
+				<li class="dish">Cevap med bröd, sallad <span class="cost">60:-</span></li>
 				<li class="ingredients">Bröd, sallad, gurka, lök, tomat, dressing</li>
-				<li class="dish">Sis Cevap <span class="cost">55kr</span></li>
+				<li class="dish">Sis Cevap <span class="cost">55:-</span></li>
 				<li class="ingredients">&nbsp</li>
-				<li class="dish">Sudzukice <span class="cost">55kr</span></li>
+				<li class="dish">Sudzukice <span class="cost">55:-</span></li>
 				<li class="ingredients">&nbsp</li>
-				<li class="dish">Pljeskavica <span class="cost">55kr</span></li>
+				<li class="dish">Pljeskavica <span class="cost">55:-</span></li>
 				<li class="ingredients">&nbsp</li>
-				<li class="dish">Cevap - Sis - Sudzukice Kombinacija <span class="cost">65kr</span></li>
+				<li class="dish">Cevap - Sis - Sudzukice Kombinacija <span class="cost">65:-</span></li>
 				<li class="ingredients">&nbsp</li>
-				<li class="dish">Sis - Sudzukice Kombinacija <span class="cost">65kr</span></li>
+				<li class="dish">Sis - Sudzukice Kombinacija <span class="cost">65:-</span></li>
 				<li class="ingredients">&nbsp</li>
-				<li class="dish">Krpice <span class="cost">70kr</span></li>
+				<li class="dish">Krpice <span class="cost">70:-</span></li>
 				<li class="ingredients">&nbsp</li>
-				<li class="dish">Mijesano Meso <span class="cost">90kr</span></li>
+				<li class="dish">Mijesano Meso <span class="cost">90:-</span></li>
 				<li class="ingredients">Cevap, sis, sudzukice, krpice, pommes, sallad, sås</li>
-				<li class="dish">Kycklingfilé - tallrik <span class="cost">75kr</span></li>
+				<li class="dish">Kycklingfilé - tallrik <span class="cost">75:-</span></li>
 				<li class="ingredients">Pommes, sallad, lök, gurka, tomat, sås</li>
-				<li class="dish">Kycklingfilé i bitar - i bröd <span class="cost">65kr</span></li>
+				<li class="dish">Kycklingfilé i bitar - i bröd <span class="cost">65:-</span></li>
 				<li class="ingredients">Bröd, lök, dressing</li>
-				<li class="dish">Cevap - tallrik <span class="cost">80kr</span></li>
+				<li class="dish">Cevap - tallrik <span class="cost">80:-</span></li>
 				<li class="ingredients">3 st cevap, lepina, pommes, sallad, läsk</li>
-				<li class="dish">Krpice - tallrik <span class="cost">90kr</span></li>
+				<li class="dish">Krpice - tallrik <span class="cost">90:-</span></li>
 				<li class="ingredients">Pommes, sallad, sås</li>
 			</ul>
 		</article>
 
 		<article class="menu menu_other">
-			<a name="other_food"></a>
+			<a name="sallad"></a>
+			<h3>Sallader <span class="familj">Normal Familje</span></h3>
+			<ul class="menu_items">
+				<li class="ingredients">Alla sallader serveras med tomat, lök gurka, sallad och dressing</li>
+				<li class="dish">Räksallad <span class="cost">70:-</span></li>
+				<li class="dish">Ost-skinksallad <span class="cost">65:-</span></li>
+				<li class="dish">Tonfisksallad <span class="cost">70:-</span></li>
+				<li class="dish">Grekisk Sallad <span class="cost">65:-</span></li>
+				<li class="dish">Kycklingsallad <span class="cost">70:-</span></li>
+				<li class="dish">Cevapsallad <span class="cost">70:-</span></li>
+			</ul>
+		</article>
+
+
+		<article class="menu menu_other">
+			<a name="vegan"></a>
 			<h3>Veganska alternativ</h3>
 			<ul class="menu_items">
-				<li class="dish">Vegan Margherita Pizza <span class="cost">65kr</span></li>
+				<li class="dish">Vegan Margherita Pizza <span class="cost">65:-</span></li>
 				<li class="ingredients">Tomatsås, vegan ost</li>
-				<li class="dish">Vegan Funghi Pizza <span class="cost">70kr</span></li>
+				<li class="dish">Vegan Funghi Pizza <span class="cost">70:-</span></li>
 				<li class="ingredients">Tomatsås, vegan ost, champinjoner</li>
-				<li class="dish">Vegan Vegetariana Pizza <span class="cost">80kr</span></li>
+				<li class="dish">Vegan Vegetariana Pizza <span class="cost">80:-</span></li>
 				<li class="ingredients">Tomatsås, vegan ost, champinjoner, lök, paprika, oliver, kronärtskocka</li>
-				<li class="dish">Vegan Tropicana Pizza <span class="cost">75kr</span></li>
+				<li class="dish">Vegan Tropicana Pizza <span class="cost">75:-</span></li>
 				<li class="ingredients">Tomatsås, vegan ost, banan, ananas, curry</li>
-				<li class="dish">Vegan Kebab Pizza <span class="cost">85kr</span></li>
+				<li class="dish">Vegan Kebab Pizza <span class="cost">85:-</span></li>
 				<li class="ingredients">Tomatsås, vegan ost, vegan kebab, champinjoner, lök, fefferoni</li>
-				<li class="dish">Vegan Kebab Rulle <span class="cost">75kr</span></li>
+				<li class="dish">Vegan Kebab Rulle <span class="cost">75:-</span></li>
 				<li class="ingredients">Vegan kebab, lök, sallad, gruka, tomat, fefferoni</li>
-				<li class="dish">Vegan Kebab Tallrik <span class="cost">85kr</span></li>
+				<li class="dish">Vegan Kebab Tallrik <span class="cost">85:-</span></li>
 				<li class="ingredients">Pommes, vegan kebab, lök, sallad, gruka, tomat, fefferoni</li>
 			</ul>
 		</article>
 
 		<article class="menu menu_other">
-			<a name="other_food"></a>
-			<h3>Pizzor med vegansk skinka</h3>
+			<a name="vegan_ham"></a>
+			<h3>Pizzor med vegansk skinka <span class="familj">Normal Familje</span></h3>
 			<ul class="menu_items">
-				<li class="dish">Vesuvio <span class="cost">80kr</span></li>
+				<li class="dish">Vesuvio <span class="cost">80:-</span></li>
 				<li class="ingredients">Vegan skinka</li>
-				<li class="dish">Calzone (inbakad) <span class="cost">80kr</span></li>
+				<li class="dish">Calzone (inbakad) <span class="cost">80:-</span></li>
 				<li class="ingredients">Vegan skinka</li>
-				<li class="dish">Capricciosa <span class="cost">80kr</span></li>
+				<li class="dish">Capricciosa <span class="cost">80:-</span></li>
 				<li class="ingredients">Vegan skinka, champinjoner</li>
-				<li class="dish">Hawaii <span class="cost">80kr</span></li>
+				<li class="dish">Hawaii <span class="cost">80:-</span></li>
 				<li class="ingredients">Vegan skinka, ananas</li>
-				<li class="dish">Flamenco <span class="cost">80kr</span></li>
+				<li class="dish">Flamenco <span class="cost">80:-</span></li>
 				<li class="ingredients">Vegan skinka, paprika</li>
-				<li class="dish">Tropicana 2 <span class="cost">85kr</span></li>
+				<li class="dish">Tropicana 2 <span class="cost">85:-</span></li>
 				<li class="ingredients">Vegan skinka, banan</li>
-				<li class="dish">Afrikana <span class="cost">85kr</span></li>
+				<li class="dish">Afrikana <span class="cost">85:-</span></li>
 				<li class="ingredients">Vegan skinka, vegan kebab, champinjoner, lök, paprika, tomat, fefferoni</li>
-				<li class="dish">Malmö Special <span class="cost">90kr</span></li>
+				<li class="dish">Malmö Special <span class="cost">90:-</span></li>
 				<li class="ingredients">Vegan skinka, vegan kebab, lök, färsk tomat</li>
-				<li class="dish">Skåne Special <span class="cost">90kr</span></li>
+				<li class="dish">Skåne Special <span class="cost">90:-</span></li>
 				<li class="ingredients">Vegan skinka, vegan kebab, champinjoner, lök, parika, tomat, fefferoni</li>
 			</ul>
 		</article>
+
+		<article class="menu menu_other">
+			<a name="pan"></a>
+			<h3>Panpizza</h3>
+			<ul class="menu_items">
+				<li class="dish">Panpizza <span class="cost">+20:- på ordinarie pris</span></li>
+				<li class="ingredients">Valfri pizza med dubbeldeg</li>
+			</ul>
+		</article>
+
+		<article class="menu menu_other">
+			<a name="other"></a>
+			<h3>Övrigt</h3>
+			<ul class="menu_items">
+				<li class="dish">Pommes <span class="cost">25:-</span></li>
+				<li class="dish">Burksås, extra bröd, extra pålägg <span class="cost">10:-</span></li>
+				<li class="dish">Läsk <span class="cost">15:-</span></li>
+			</ul>
+		</article>
+
 	</div>
 
-
-
 		<footer>
-			<a name="contact"></a>
 			<article class="footer_content">
-				<ul class="contact">
-					<li>Lönngatan 50A</li>
-					<li>040 96 57 35</li>
-				</ul>
+				<a name="contact"></a>
+				<h3>Kontakt</h3>
+				<p>Lönngatan 50A</p>
+				<p>040 96 57 35</p>
 			</article>
 			<article class="footer_content">
 				<h3>Öppettider</h3>
-				<ul class="open">
-					<li>Mån-Tors 11.00-20.00 Fre 11.00-21.00</li>
-					<li>Lör 12.00-21.00 Sön 13.00-20.00</li>
-					<li>Tisdag Stängt</li>
-				</ul>
+				<p>Mån-Tors 11.00-20.00 Fre 11.00-21.00</p>
+				<p>Lör 12.00-21.00 Sön 13.00-20.00</p>
+				<p>Tisdag Stängt</p>
 			</article>
 		</footer>
 
